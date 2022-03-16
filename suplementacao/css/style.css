@@ -204,3 +204,8 @@ ul {
     border: solid 1px white;
 }
 
+::-webkit-input-placeholder {
+    font-weight: bold;
+    color: white
+}
+
