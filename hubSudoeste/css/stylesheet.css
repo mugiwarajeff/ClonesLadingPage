@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-family: poppins ;
+}
+
+header {
+    display: flex;
+ flex-direction: row;
+}
+
+.logo-header {
+    flex-grow: 5;
+    text-align: center;
+}
+
+ion-icon {
+    font-size: 15px;
+    padding: 7.5px;
+    border-radius: 3px;
+    margin: 1px
+}
+
+.logo-instagram {
+    color:aliceblue;
+    background-color: #eb425a;
+}
+.logo-youtube {
+    color: aliceblue;
+    background-color: #cd201f;
+}
+
+.logo-linkedin {
+    color: aliceblue;
+    background-color: #0077b5;
+}
+
+.header-menu-container {
+    margin-bottom: 0px;
+}
+.header-menu-container li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu-container ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #502183;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.header-menu li {
+    padding: 16px 41px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    border-bottom: solid 3px #ffffff;
+    border-top: solid 3px #ffffff;
+
+}
+.header-menu li:hover {
+    border-top: solid 3px #02d1ae;
+    border-bottom: solid 3px #02d1ae;
+}
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: gray;
+}
+.banner-container img {
+    height:300px;
+    width: 400px;
+    margin-bottom: 2%;
+}
+
+.conection-btn {
+    text-decoration: none;
+    color: #068b80;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: solid 2px #352b85;
+    border-radius: 10px;
+    position: relative;
+    bottom: 65px;
+}
+
+.information-firts-hub {
+    background-color: #28de95;
+    color: #352b85;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    min-width: 350px;
+    margin: 0px;
+    justify-content: center;
+}
+.information-firts-hub .principal-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 0px;
+}
+.information-firts-hub .secondary-title {
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+}
