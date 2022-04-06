@@ -5,7 +5,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 750px;
     justify-content: center;
     align-items: center;
     background-color: rgb(78, 0, 142, 0.8); 
