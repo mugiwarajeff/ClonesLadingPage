@@ -70,15 +70,18 @@
     justify-content: center;
 }
 
+
 .team-container {
-    background-color: #4e008e;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
     background-image: url(../pictures/fundo-conexoes.png);
     background-position: right;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
 }
 
+.team-conections-overlay {
+    background-color: rgb(78, 0, 142); 
+}
 .team-member {
     display: flex;
     flex-direction: column;
